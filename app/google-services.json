@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "277336516098",
+    "firebase_url": "https://georgiasfaindirect.firebaseio.com",
+    "project_id": "georgiasfaindirect",
+    "storage_bucket": "georgiasfaindirect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277336516098:android:a75168c566f71685",
+        "android_client_info": {
+          "package_name": "project.astix.com.georgiasfaindirect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277336516098-vcslv3qs4nduu0ngmrhtl33h9pss6702.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMZyHTMh_giaUv9xTv9KajiHBf5HAbGuI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
