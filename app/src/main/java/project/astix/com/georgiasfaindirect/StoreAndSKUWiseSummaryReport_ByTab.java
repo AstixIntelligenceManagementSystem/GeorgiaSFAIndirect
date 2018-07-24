@@ -109,7 +109,7 @@ public class StoreAndSKUWiseSummaryReport_ByTab extends BaseActivity
        
         
         
-        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#C54039")));
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#1565C0")));
 
         // set background for action bar tab
         actionBar.setStackedBackgroundDrawable(new ColorDrawable(Color.parseColor("#ffffff")));   

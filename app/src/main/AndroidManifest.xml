@@ -409,7 +409,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDOTGumK5KyUfvl7w3CX8IyXtBX5m5pCQw"/>
+            android:value="AIzaSyCGAn4_CsjQoBzbjuVxdcJ1rAbv7TM-zLU"/>
 
         <service
             android:name="project.astix.com.georgiasfaindirect.GeocodeAddressIntentService"
