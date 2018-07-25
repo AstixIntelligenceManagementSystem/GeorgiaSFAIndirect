@@ -83,8 +83,7 @@ public class CommonInfo
 
 	// Its for Test Path on 194 Server
 
-
-/*	public static int flgAllRoutesData=1;
+	public static int flgAllRoutesData=1;
 	public static File imageF_savedInstance=null;
 	public static String imageName_savedInstance=null;
 	public static String clickedTagPhoto_savedInstance=null;
@@ -109,7 +108,7 @@ public class CommonInfo
 
 	public static int AnyVisit = 0;
 
-	public static int DATABASE_VERSIONID = 2;      // put this field value based on value in table on the server
+	public static int DATABASE_VERSIONID = 3;      // put this field value based on value in table on the server
 	public static String AppVersionID = "1.0";   // put this field value based on value in table on the server
 	public static int Application_TypeID = 2; //1=Parag Store Mapping,2=Parag SFA Indirect,3=Parag SFA Direct
 
@@ -149,12 +148,12 @@ public class CommonInfo
 
 	public static int SalesmanNodeType=0;
 	public static int flgDataScope=0;
-	public static int FlgDSRSO=0;*/
+	public static int FlgDSRSO=0;
 
 // Its for Development Path on 194 Server
 
 
-	public static int flgAllRoutesData=1;
+	/*public static int flgAllRoutesData=1;
 	public static File imageF_savedInstance=null;
 	public static String imageName_savedInstance=null;
 	public static String clickedTagPhoto_savedInstance=null;
@@ -219,5 +218,5 @@ public class CommonInfo
 	public static int SalesmanNodeType=0;
 	public static int flgDataScope=0;
 	public static int FlgDSRSO=0;
-
+*/
 }

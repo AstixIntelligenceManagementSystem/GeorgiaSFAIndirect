@@ -612,14 +612,14 @@ GoogleApiClient.OnConnectionFailedListener{
 				// TODO Auto-generated method stub
 				super.onResume();
 
-				if(isSubmitClicked)
+				/*if(isSubmitClicked)
 				{
 					submitFunctionalityAfterMerchandisingInstruction();
 				}
 				else
 				{
 
-				}
+				}*/
 				
 				
 				
@@ -9100,12 +9100,12 @@ public void loadPurchaseProductDefault()
 	 if(valBtnClickedFrom==3)//Clicked By Btn Submitt
 	 {
 
-		 Intent in=new Intent(OrderReview.this,MerchandisingInstruction.class);
+		/* Intent in=new Intent(OrderReview.this,MerchandisingInstruction.class);
 		 in.putExtra("storeID", storeID);
 		 in.putExtra("OrderPDAID", strGlobalOrderID);
-		 startActivity(in);
-		 //submitFunctionalityAfterMerchandisingInstruction();
-		 /*  AlertDialog.Builder alertDialogSubmitConfirm = new AlertDialog.Builder(OrderReview.this);
+		 startActivity(in);*/
+
+		  AlertDialog.Builder alertDialogSubmitConfirm = new AlertDialog.Builder(OrderReview.this);
 			alertDialogSubmitConfirm.setTitle(getText(R.string.genTermNoDataConnection));
 			alertDialogSubmitConfirm.setMessage(getText(R.string.submitConfirmAlert));
 			alertDialogSubmitConfirm.setCancelable(false);
@@ -9183,7 +9183,7 @@ public void loadPurchaseProductDefault()
 			
 			AlertDialog alert = alertDialogSubmitConfirm.create();
 			
-			alert.show();*/
+			alert.show();
 			
 
 		    
