@@ -27,6 +27,7 @@ import android.os.Build;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.view.MotionEvent;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import com.astix.Common.CommonInfo;
@@ -2631,6 +2632,14 @@ public void DayEndWithoutalert()
 
 		relativeLayout1=(RelativeLayout) findViewById(R.id.relativeLayout1);
 		ed_search=(EditText) findViewById(R.id.ed_search);
+		ed_search.setOnTouchListener(new View.OnTouchListener() {
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				v.setFocusable(true);
+				v.setFocusableInTouchMode(true);
+				return false;
+			}
+		});
 		dbengine.open();
 		rID=dbengine.GetActiveRouteID();
 		if(rID.equals("0"))

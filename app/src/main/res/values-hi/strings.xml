@@ -3,8 +3,8 @@
 
     <!--<string name="app_name">Georgia SFA</string>-->
     <!-- <string name="app_name">Georgia SFAStagging</string>-->
-     <string name="app_name">Georgia SFA Test</string>
-    <!--<string name="app_name">Georgia SFA Dev</string>-->
+     <!--<string name="app_name">Georgia SFA Test</string>-->
+    <string name="app_name">Georgia SFA Dev</string>
     <!--<string name="app_name">Georgia SFA Test Release</string>-->
 
     <!-- <string name="app_name">SANCUS NETWORK SFA Training</string>-->

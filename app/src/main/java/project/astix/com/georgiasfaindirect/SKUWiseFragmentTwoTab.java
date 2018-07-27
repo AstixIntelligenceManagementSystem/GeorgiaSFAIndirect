@@ -352,7 +352,10 @@ public class SKUWiseFragmentTwoTab<Context> extends Fragment
 					Double prd_mrp=Double.parseDouble(s2);
 					prd_mrp= Double.parseDouble(new DecimalFormat("##.##").format(prd_mrp));
 					txt_mrp.setText(""+prd_mrp);
-					txt_rate.setText(s3);
+					 Double prd_rate=Double.parseDouble(s3);
+					 prd_rate= Double.parseDouble(new DecimalFormat("##.##").format(prd_rate));
+
+					txt_rate.setText(""+prd_rate);
 	                txt_stores.setText(s10);
 					txt_order.setText(s4);
 					txt_free.setText(s5);	

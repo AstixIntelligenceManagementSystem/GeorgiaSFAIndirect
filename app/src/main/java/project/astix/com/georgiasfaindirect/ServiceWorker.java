@@ -18115,7 +18115,7 @@ String RouteType="0";
 			String RouteID=dbengine.GetActiveRouteID();
 			RouteType=dbengine.FetchRouteType(RouteID);
 			dbengine.close();
-			System.out.println("hi"+RouteType);
+			//System.out.println("hi"+RouteType);
 		}
 		catch(Exception e)
 		{

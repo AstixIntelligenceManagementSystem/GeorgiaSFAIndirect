@@ -1954,7 +1954,7 @@ GoogleApiClient.OnConnectionFailedListener,CategoryCommunicator
 			final EditText et_Stock=(EditText) viewProduct.findViewById(R.id.et_Stock);
 			final EditText et_LstStock=(EditText) viewProduct.findViewById(R.id.et_LstStock);
 
-
+			final EditText et_OrderQty=(EditText) viewProduct.findViewById(R.id.et_OrderQty);
 
 			if(hmapProductIdLastStock.containsKey(productIdDynamic))
 			{
@@ -1981,7 +1981,8 @@ GoogleApiClient.OnConnectionFailedListener,CategoryCommunicator
 
 			if(flgOrderType==1)
 			{
-				et_Stock.setBackgroundResource(R.drawable.edit_text_bg_gst_disable);
+				et_OrderQty.setBackgroundResource(R.drawable.edit_text_bg_stock);
+				//et_Stock.setBackgroundResource(R.drawable.edit_text_bg_gst_disable);
 				if(hmapFetchPDASavedData!=null && hmapFetchPDASavedData.containsKey(productIdDynamic))
 				{
 
@@ -2001,7 +2002,9 @@ GoogleApiClient.OnConnectionFailedListener,CategoryCommunicator
 			{
 				//ashwani sir said to mke it disable
 				et_Stock.setEnabled(false);    // its making false,stock alrady taken in store check
-				et_Stock.setBackgroundResource(R.drawable.edit_text_bg_stock);
+				//et_Stock.setBackgroundResource(R.drawable.edit_text_bg_stock);
+				et_OrderQty.setBackgroundResource(R.drawable.edit_text_bg_stock);
+
 				et_Stock.setTextColor(getResources().getColor(R.color.black));
 				et_Stock.setHint(ProductOrderFilterSearch.this.getResources().getString(R.string.StockQty));
 
@@ -2017,7 +2020,7 @@ GoogleApiClient.OnConnectionFailedListener,CategoryCommunicator
 
 
 
-	           final EditText et_OrderQty=(EditText) viewProduct.findViewById(R.id.et_OrderQty);
+
 
 	           et_OrderQty.setTag("etOrderQty"+"_"+productIdDynamic);
 

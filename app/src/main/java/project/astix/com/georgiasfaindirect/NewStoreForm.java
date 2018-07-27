@@ -6109,14 +6109,14 @@ public void selectedOption(String optId, String optionVal, EditText editext,List
 							}
 							
 							 if(entry.getKey().split(Pattern.quote("^"))[1].toString().equals("13"))
-							 {/*
+							 {
 								 TextView textView=(TextView) ll_data.findViewWithTag(entry.getKey());
 								 if(hmapsearchAnswerSlctd.containsKey(entry.getKey()))
 								 {
 									  hmapAnsValues.put(entry.getKey(),hmapsearchAnswerSlctd.get(entry.getKey()) );
 								 }
 								
-							 */}
+							 }
 							 if(entry.getKey().split(Pattern.quote("^"))[1].toString().equals("15"))
 							 {
 								 TextView textView=(TextView) ll_data.findViewWithTag(entry.getKey());

@@ -305,9 +305,11 @@ public class StoreAndSKUWiseFragmentTwoTab<Context> extends Fragment
 				//txt_mrp.setText(s2);
 				
 				TextView txt_rate=(TextView) view.findViewById(R.id.txt_rate);
-				
-				
-				txt_rate.setText(s3);
+				 Double prd_rate=Double.parseDouble(s3);
+				 prd_rate= Double.parseDouble(new DecimalFormat("##.##").format(prd_rate));
+
+
+				 txt_rate.setText(""+prd_rate);
 				
 				TextView txt_stock=(TextView) view.findViewById(R.id.txt_stock);
 				txt_stock.setText(s4);
